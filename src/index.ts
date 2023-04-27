@@ -1,8 +1,2 @@
-import {init, exit} from "myPackage";
+console.log("bye")
 
-init({
-  url:"hi"
-})
-
-
-exit(1)

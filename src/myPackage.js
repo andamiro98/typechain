@@ -4,7 +4,7 @@
  * @param {Object} config 
  * @param {boolean} config.debug
  * @param {string} config.url
- * @returns {boolean}
+ * @returns boolean
  */
 export function init (config){
   return true;
@@ -15,7 +15,7 @@ export function init (config){
 /**
  * Exits the program
  * @param {number} code 
- * @returns {number}
+ * @returns number
  */
 export function exit (code){
   return code + 1;

@@ -35,7 +35,7 @@ class Blockchain {
     this.blocks.push(newBlock)
   }
   public getBlocks(){
-    return this.blocks
+    return [...this.blocks]
   }
 }
 
@@ -45,5 +45,7 @@ const blockchain = new Blockchain();
 blockchain.addBlock("frist one");
 blockchain.addBlock("second one");
 blockchain.addBlock("third one");
+
+blockchain.getBlocks()
 
 console.log(blockchain.getBlocks());
